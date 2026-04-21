@@ -2,7 +2,7 @@
 using namespace std;
 #define ll long long 
 ll bigMod(ll base,ll exp,ll mod){
-    if(mod == 1) return 0;
+    if(mod == 1) return 0;   
     ll res = 1;
     base %= mod;
     while(exp > 0){
